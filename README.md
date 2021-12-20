@@ -13,9 +13,9 @@ For a full overview see the <a href="https://github.com/toby-p/pyspark-flight-de
 
 ### Full Contents
 
-* **code** - executable Python files to run the full pipeline from start to finish:
+* **<a href="https://github.com/toby-p/pyspark-flight-delay-prediction/tree/master/code">code</a>** - executable Python files to run the full pipeline from start to finish:
   * `full_data_pipeline.py` - data engineering pipeline to clean, transform, and augment the raw data to produce final train/test datasets suitable for supervised machine learning.
   * `gridsearch_cv.py` - custom class to grid-search parameters for different models in a cross-validation method designed for sequential time-series data.
   * `model_selection_ensemble.py` - ensemble of the best machine learning models found in the grid-searches to make final predictions and evaluate performance on the test dataset.
-* **notebooks** - Databricks/Jupyter notebooks detailing each stage of the pipeline, along with full EDA, and the final written report.
-* **Flight Delay Prediction - Presentation Slides.pdf** - slide deck for the final presentation of our project work and findings.
+* **<a href="https://github.com/toby-p/pyspark-flight-delay-prediction/tree/master/notebooks">notebooks</a>** - Databricks/Jupyter notebooks detailing each stage of the pipeline, along with full EDA, and the final written report.
+* **<a href="https://github.com/toby-p/pyspark-flight-delay-prediction/blob/master/Flight%20Delay%20Prediction%20-%20Presentation%20Slides.pdf">Flight Delay Prediction - Presentation Slides.pdf</a>** - slide deck for the final presentation of our project work and findings.
